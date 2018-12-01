@@ -1,5 +1,6 @@
 # SequencerCode
-EME Relay Sequencer Code (Beta test)
+EME Relay Sequencer Code (Beta test). Runs on ATmega16 / pin compatible chip.
+Compiled using CodeVision AVR (Not Arduino rubbish).
 
 ## I/O Ports
 Input
