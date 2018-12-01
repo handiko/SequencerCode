@@ -35,18 +35,18 @@ Data Stack size         : 256
 void blink_leds(int time)
 {
         PTT_LED=1;
-        EVENT1=1;
-        EVENT2=1;
-        EVENT3=1;
-        EVENT4=1; 
+        EVENT_1=1;
+        EVENT_2=1;
+        EVENT_3=1;
+        EVENT_4=1; 
         
         delay_ms(time);
         
         PTT_LED=0;
-        EVENT1=0;
-        EVENT2=0;
-        EVENT3=0;
-        EVENT4=0; 
+        EVENT_1=0;
+        EVENT_2=0;
+        EVENT_3=0;
+        EVENT_4=0; 
         
         delay_ms(time);
 }

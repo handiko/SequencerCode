@@ -69,6 +69,6 @@ void main(void)
         while (1)
         {
                 if(PTT_SIG)     blink_leds(1000);
-                else            blink_leds(500);
+                else            blink_leds(250);
         }
 }
