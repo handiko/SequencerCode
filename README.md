@@ -5,8 +5,8 @@ EME Relay Sequencer Code (Beta test)
 * PTT Input (active low)  PIND.3
 
 * Leds:
-** PTT Led (TX high)       PORTD.2
-** EVENT 1                 PORTA.4
+* PTT Led (TX high)       PORTD.2
+* EVENT 1                 PORTA.4
 
 ## Fuse Bits
 * Low   0xBD
