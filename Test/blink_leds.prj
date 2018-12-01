@@ -109,7 +109,7 @@ WarningExternalDeclaredNeverDefined=1
 WarningUnknownPragma=1
 DebugBootLoader=0
 WatchAVR8LAutoVariables=0
-Build=1
+Build=4
 UseEEPROMLocation0=1
 [Assembler]
 OutputFormat=1
@@ -193,6 +193,7 @@ RunUserProg=0
 Files=1
 F1=C:\Users\USER\SequencerCode\Test\blink_leds.c
 [Header1]
-Files=2
+Files=3
 F1=C:\cvavr2\inc\mega16a.h
 F2=C:\cvavr2\inc\mega16_bits.h
+F3=C:\cvavr2\inc\delay.h

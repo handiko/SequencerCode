@@ -1,1 +1,2 @@
-main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"blink_leds.c" LINE:36
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"blink_leds.c" LINE:54
+blink_leds DSTACK_USAGE:2 DSTACK_LEVEL:2 FILE:"blink_leds.c" LINE:35
