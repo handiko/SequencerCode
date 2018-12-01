@@ -17,4 +17,7 @@ Leds:
 * `Low   0xBD`
 * `High  0x99`
 
+## Delay
+Fix delay
+
 ...
