@@ -13,6 +13,9 @@ Leds:
 * `EVENT 3                 PORTA.6`
 * `EVENT 4                 PORTA.7`
 
+## Clock
+Using an external 4MHz XTAL, is required.
+
 ## Fuse Bits
 * `Low   0xBD`
 * `High  0x99`
