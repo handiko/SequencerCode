@@ -22,6 +22,7 @@ Data Stack size         : 256
 *****************************************************/
 
 #include <mega16a.h>
+#include "pindef.h"
 
 void main(void)
 {
@@ -45,6 +46,7 @@ void main(void)
 
         while (1)
         {
-                // Place your code here
+                // Place your code here   
+                PTT_LED=0;
         }
 }
