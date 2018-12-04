@@ -21,6 +21,6 @@ Using an external 4MHz XTAL, is required.
 * `High  0x99`
 
 ## Delay
-Fix delay
+Fix delay 35
 
 ...
