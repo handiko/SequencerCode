@@ -25,7 +25,7 @@ Data Stack size         : 256
 #include <delay.h>
 #include "pindef.h"
 
-int delay=250;
+int delay=75;
 
 void switch_tx(void)
 {
