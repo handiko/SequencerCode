@@ -22,7 +22,34 @@ Data Stack size         : 256
 *****************************************************/
 
 #include <mega16a.h>
+#include <delay.h>
 #include "pindef.h"
+
+int delay=250;
+
+void switch_tx(void)
+{
+        EVENT_1=1;
+        delay_ms(delay);
+        EVENT_2=1;
+        delay_ms(delay);
+        EVENT_3=1;
+        delay_ms(delay);
+        EVENT_4=1;
+        delay_ms(delay);
+}
+
+void switch_rx(void)
+{
+        delay_ms(delay);
+        EVENT_4=0;
+        delay_ms(delay); 
+        EVENT_3=0;
+        delay_ms(delay);
+        EVENT_2=0;
+        delay_ms(delay);
+        EVENT_1=0;
+}
 
 void main(void)
 {
@@ -49,6 +76,7 @@ void main(void)
         while (1)
         {
                 // Place your code here   
-                while(PTT_INPUT);
+                while(PTT_INPUT);  
+                while(!PTT_INPUT);
         }
 }

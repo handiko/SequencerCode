@@ -1,5 +1,8 @@
-VERSION:3 SOURCE_TIMESTAMP:4D84AD39
+VERSION:3 SOURCE_TIMESTAMP:4D84ADC6
 NODE:I LEVEL:0 LINE:24 "C:\cvavr2\inc\mega16a.h"
 NODE:I LEVEL:0 LINE:25 "C:\cvavr2\inc\delay.h"
 NODE:I LEVEL:0 LINE:26 "C:\Users\USER\SequencerCode\Test\pindef.h"
-NODE:F LEVEL:0 LINE:28 "main(void)"
+NODE:V LEVEL:0 LINE:28 "delay -> R4,R5"
+NODE:F LEVEL:0 LINE:30 "switch_tx(void)"
+NODE:F LEVEL:0 LINE:42 "switch_rx(void)"
+NODE:F LEVEL:0 LINE:54 "main(void)"
