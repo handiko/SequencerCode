@@ -23,4 +23,7 @@ Using an external 4MHz XTAL, is required.
 ## Delay
 Fix delay 35
 
+## Invert Event 4 (TX INH)
+No
+
 ...
