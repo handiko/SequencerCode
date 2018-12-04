@@ -26,6 +26,7 @@ Data Stack size         : 256
 #include "pindef.h"
 
 int delay=35;
+bit event_4_invert=0;
 
 void switch_tx(void)
 {
@@ -35,14 +36,14 @@ void switch_tx(void)
         delay_ms(delay);
         EVENT_3=1;
         delay_ms(delay);
-        EVENT_4=1;
+        EVENT_4=~event_4_invert;
         delay_ms(delay);
 }
 
 void switch_rx(void)
 {
         delay_ms(delay);
-        EVENT_4=0;
+        EVENT_4=event_4_invert;
         delay_ms(delay); 
         EVENT_3=0;
         delay_ms(delay);
