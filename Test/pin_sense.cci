@@ -1,8 +1,9 @@
-VERSION:3 SOURCE_TIMESTAMP:4D84B030
+VERSION:3 SOURCE_TIMESTAMP:4D84B084
 NODE:I LEVEL:0 LINE:24 "C:\cvavr2\inc\mega16a.h"
 NODE:I LEVEL:0 LINE:25 "C:\cvavr2\inc\delay.h"
 NODE:I LEVEL:0 LINE:26 "C:\Users\USER\SequencerCode\Test\pindef.h"
 NODE:V LEVEL:0 LINE:28 "delay -> R4,R5"
-NODE:F LEVEL:0 LINE:30 "switch_tx(void)"
-NODE:F LEVEL:0 LINE:42 "switch_rx(void)"
-NODE:F LEVEL:0 LINE:54 "main(void)"
+NODE:V LEVEL:0 LINE:29 "event_4_invert -> R2.0"
+NODE:F LEVEL:0 LINE:31 "switch_tx(void)"
+NODE:F LEVEL:0 LINE:43 "switch_rx(void)"
+NODE:F LEVEL:0 LINE:55 "main(void)"
