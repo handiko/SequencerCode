@@ -76,7 +76,9 @@ void main(void)
         while (1)
         {
                 // Place your code here   
-                while(PTT_SIG);  
+                while(PTT_SIG);     
+                switch_tx();
                 while(!PTT_SIG);
+                switch_rx();
         }
 }
