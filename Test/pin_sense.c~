@@ -72,7 +72,8 @@ void main(void)
         ACSR=0x80;
         SFIOR=0x00;   
         
-        delay_ms(250);
+        delay_ms(250);    
+        switch_rx();
 
         while (1)
         {
