@@ -76,7 +76,7 @@ void main(void)
         while (1)
         {
                 // Place your code here   
-                while(PTT_INPUT);  
-                while(!PTT_INPUT);
+                while(PTT_SIG);  
+                while(!PTT_SIG);
         }
 }
