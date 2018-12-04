@@ -22,7 +22,7 @@ Data Stack size         : 256
 *****************************************************/
 
 #include <mega16a.h>
-//#include "pindef.h"
+#include "pindef.h"
 
 void main(void)
 {
@@ -42,11 +42,13 @@ void main(void)
         // Analog Comparator: Off
         // Analog Comparator Input Capture by Timer/Counter 1: Off
         ACSR=0x80;
-        SFIOR=0x00;
+        SFIOR=0x00;   
+        
+        delay_ms(250);
 
         while (1)
         {
                 // Place your code here   
-                PTT_LED=0;
+                while(PTT_INPUT);
         }
 }
